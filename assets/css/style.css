@@ -1,0 +1,448 @@
+body {
+    background-image: url("../images/mike2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#portfolio-body {
+    background-image: url("../images/solidwood1.jpg");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    width: 600px;
+    margin-top: 13%;
+    margin-left: 20%;
+    font-family: 'Amatica SC', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+#k-title {
+    margin-left: 20%;
+    border-bottom: 3px groove #F78500;
+}
+
+#k-title:hover {
+    font-size: 60px;
+}
+
+.links {
+    margin: 10px 0 0 17%;
+    font-family: 'Amatica SC', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+
+.links2 {
+    margin-left: 17%;
+    font-family: 'Amatica SC', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    visibility: visible;
+}
+
+#about:hover {
+    font-size: 50px;
+    background-color: lightblue;
+}
+
+#about:active {
+    font-size: 50px;
+    background-color: #CAE4DB;
+}
+
+#portfolio:hover {
+    font-size: 50px;
+    background-color: orange;
+}
+
+#portfolio:active {
+    font-size: 50px;
+    background-color: #EDAA53;
+}
+
+#contact:hover {
+    font-size: 50px;
+    background-color: lightgreen;
+}
+
+#contact:active {
+    font-size: 50px;
+    background-color: #7DCE94;
+}
+
+.logo-links {
+    font-family: 'Amatica SC', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    display: inline-grid;
+    margin-right: 40px;
+    margin-top: 60px;
+    opacity: .6;
+}
+
+.logo-links a {
+    margin-top: 20px;
+}
+
+#linked:hover {
+    opacity: .9;
+    height: 55px;
+    width: 55px;
+}
+
+#git:hover {
+    height: 55px;
+    width: 55px;
+}
+
+#stack:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*css on all pages other than landing page*/
+
+.header {
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Amatica SC', cursive;
+    color: white;
+    background-color: black;
+    border-bottom: 4px solid black;
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo-links-portfolio {
+    font-family: 'Amatica SC', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    display: inline-grid;
+    margin-left: 90%;
+    color: white;
+    opacity: .6;
+    position: fixed;
+    margin-top: 30px;
+}
+
+.logo-links-portfolio a {
+    margin-top: 20px;
+}
+
+#git2:hover {
+    height: 60px;
+    width: 60px;
+}
+
+.footer {
+    /*bottom:0;*/
+    width: 100%;
+    height: 61px;
+    padding-bottom: 5px;
+    /*margin-top: 30%;*/
+    background-color: black;
+    border-top: 2px solid black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+}
+
+#p-title {
+    margin-left: 38%;
+}
+
+#nav {
+    float: left;
+    margin-left: 20px;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+.glyphicon-menu-hamburger {
+    color: orange;
+    margin-left: 15px;
+}
+
+.glyphicon-menu-hamburger:active {
+    color: #FF652D;
+    margin-left: 15px;
+}
+
+.css {
+    color: black;
+    background-color: lightblue;
+    padding: 0 4px 0 4px;
+}
+
+.html {
+    color: black;
+    background-color: lightgreen;
+    padding: 0 4px 0 4px;
+}
+
+.javascript {
+    color: black;
+    background-color: lightyellow;
+    padding: 0 4px 0 4px;
+}
+
+.node {
+    color: black;
+    background-color: #99CD4E;
+    padding: 0 4px 0 4px;
+}
+
+.firebase {
+    color: black;
+    background-color: #FA625F;
+    padding: 0 4px 0 4px;
+}
+
+.mysql {
+    color: black;
+    background-color: #1F8AFF;
+    padding: 0 4px 0 4px;
+}
+
+.express {
+    color: black;
+    background-color: #B6D0C9;
+    padding: 0 4px 0 4px;
+}
+
+.sequelize {
+    color: black;
+    background-color: #B37B56;
+    padding: 0 4px 0 4px;
+}
+
+.mongodb {
+    color: black;
+    background-color: #B0B1A1;
+    padding: 0 4px 0 4px;
+}
+
+.react {
+    color: black;
+    background-color: #F7B733;
+    padding: 0 4px 0 4px;
+}
+
+.ham-nav {
+    width: 100px;
+}
+
+.header .dropdown-menu {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #EFF1F3;
+}
+
+.header .dropdown-menu li a {
+    font-size: 22px;
+    font-weight: 900;
+    width: 200px;
+    padding-top: 10px;
+    background-color: #EFF1F3;
+}
+
+.header .dropdown-menu li a:hover {
+    font-size: 25px;
+    color: orange;
+    font-weight: 1000;
+}
+
+.header .dropdown-menu li a:active {
+    font-size: 25px;
+    color: #DD4E00;
+    font-weight: 1000;
+}
+
+#chalk {
+    margin-left: 10px;
+}
+
+
+/*portfolio html*/
+
+.middle-portfolio {
+    padding: 0 10px;
+    padding-bottom: 65px;
+    margin-left: 20%;
+    width: 55%;
+    margin-top: 80px;
+}
+
+#proj-img:hover {
+    height: 270px;
+    width: 270px;
+}
+
+.project1 {
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+    display: inline-flex;
+    position: static;
+}
+
+.project1 span {
+    margin-left: 5px;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 50%;
+}
+
+
+/*contact html*/
+
+.middle-contact {
+    padding: 0 10px;
+    padding-bottom: 65px;
+    display: inline-flex;
+    margin-top: 80px;
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    margin-left: 12%;
+}
+
+label {
+    font-size: 30px;
+    font-family: 'Amatica SC', cursive;
+    color: white;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 80%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 2px solid black;
+}
+
+textarea {
+    height: 200px;
+    color: black;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    background: gray;
+    border: 0 none;
+    margin-left: 17%;
+    border: 2px solid black;
+}
+
+input[type=submit]:hover {
+    padding: 10px 30px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    background: gray;
+    border: 0 none;
+    margin-left: 17%;
+    border: 2px solid orange;
+}
+
+.chalk-board-contact {
+    width: 325px;
+    height: 380px;
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Amatica SC', cursive;
+    color: white;
+    padding: 10px;
+}
+
+#chalk-title {
+    margin-left: 20px;
+}
+
+
+/*about html*/
+
+.middle-about {
+    padding: 0 10px;
+    padding-bottom: 65px;
+    width: 85%;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.chalk-board-about {
+    width: 70%;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Amatica SC', cursive;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#contact-hyperlink:hover {
+    font-size: 28px;
+    font-weight: 650;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 20px) {
+    .project1 {
+        margin-top: 20px;
+        padding: 30px;
+        color: white;
+        display: inline-block;
+        position: static;
+        margin-left: 35%;
+        width: 800px;
+    }
+}
