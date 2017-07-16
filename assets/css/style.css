@@ -92,6 +92,7 @@ body {
 
 .logo-links a {
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 #linked:hover {
@@ -353,8 +354,7 @@ body {
 /*contact html*/
 
 .middle-contact {
-    /*padding: 0 10px;*/
-    /*padding-bottom: 65px;*/
+  
     height:580px;
     width:70%;
     display: inline-flex;
@@ -467,6 +467,10 @@ margin-left:20px;
     font-size:30px;
     font-weight: bold;
 }
+#chalk-bottom-text{
+    margin-left:27%;
+    line-height:250px;
+}
 
 /*about html*/
 
@@ -504,11 +508,19 @@ margin-left:20px;
         color: white;
         display: inline-block;
         position: static;
-        margin-right: 50px;
+        /*margin-right: 50px;*/
        
     }
+    .middle-portfolio {
+    padding: 0 10px;
+    padding-bottom: 65px;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 80px;
+
+}
     #p-title {
-    margin-left: 25%;
+    margin-left: 28%;
 }
 
 .middle-contact {
@@ -535,13 +547,13 @@ margin-left:20px;
 
 #contact-form ul {
     margin-bottom: 20px;
-    /*width: 600px;*/
+  
 }
 
 #contact-form li {
     margin-bottom: 10px;
     list-style-type: none;
-    /*margin-left: 12%;*/
+    margin-left: 1%;
 }
 
 label {
@@ -600,25 +612,26 @@ input[type=submit]:hover {
     height: 100%;
     background-color: black;
     border:2px solid black;
-    /*margin-left: 80px;*/
-    /*margin-top: 50px;*/
+   
     font-size: 25px;
     font-family: 'Amatica SC', cursive;
     color: white;
-    /*padding-right:100px;*/
+    
   
 }
 .chalk-board-contact li{
 margin-left:20px;
+font-size:30px;
+visibility: none;
 
 }
-.chalk-board-contact p{
-    margin:60px 0 0 60px;
+#chalk-bottom-text{
+
 }
 
 #chalk-title {
     font-size: 55px;
-    margin-left: 25%;
+    margin-left: 22%;
     border-bottom:2px solid white;
     font-weight: bold;
 }
@@ -641,12 +654,12 @@ margin-left:20px;
     position: absolute;
 }
 .chalk-board-contact h2{
-    margin-left:20%;
+    margin-left:15%;
     font-size: 45px;
 }
-.chalk-board-contact li{
-    margin-left:20%;
-    font-size:25px;
-    /*text-align: center;*/
+.logo-links-portfolio {
+    margin-left: 88%;
+    
 }
+
 }
