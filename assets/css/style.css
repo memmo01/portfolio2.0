@@ -12,6 +12,21 @@ body {
     margin: 0;
     padding: 0;
 }
+.button {
+    background-color: #666;
+    border-style:groove;       
+    border-color:black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    /*text-decoration: none;*/
+    display: inline-block;
+    font-size: 16px;
+    width:110px;
+    cursor: pointer;
+    margin:15px 0 0 0;
+
+}
 
 .name {
     width: 600px;
@@ -151,7 +166,8 @@ body {
     margin-top: 30px;
    
 }
-#stack{
+#screenshot{
+    box-shadow: 8px 8px 5px grey;
 /*background-color:white;*/
 }
 
@@ -310,6 +326,9 @@ body {
 #chalk {
     margin-left: 10px;
 }
+#eight-b-pic{
+box-shadow: 5px 5px 5px grey;
+}
 
 
 /*portfolio html*/
@@ -323,11 +342,11 @@ body {
 
 }
 
-#proj-img:hover {
+/*#proj-img:hover {
     height: 270px;
     width: 270px;
 }
-
+*/
 .project1 {
     margin-top: 20px;
     padding: 30px;
@@ -340,14 +359,24 @@ body {
 
 .project1 span {
     margin-left: 5px;
+    line-height: 30px;
 }
 
 .left-side {
-    width: 40%;
+    width: 15%;
+    border-right:2px solid black;
 }
 
 .right-side {
-    width: 50%;
+    width: 60%;
+    margin-left:5%;
+}
+#eight-ball-screen{
+    display: inline-flex;
+}
+.screen-button{
+    margin-top:15px;
+
 }
 
 
@@ -519,8 +548,43 @@ margin-left:20px;
     margin-top: 80px;
 
 }
+.screen-button{
+    margin-top:15px;
+    display: inline-flex;
+}
+.button {
+    background-color: #666;
+    border-style:groove;       
+    border-color:black;
+    color: white;
+
+    text-align: center;
+    /*text-decoration: none;*/
+    
+    font-size: 16px;
+    width:110px;
+    cursor: pointer;
+    margin:1px 1px 1px 1px;
+
+}
     #p-title {
     margin-left: 28%;
+}
+
+#screenshot{
+    width:420px;
+}
+.left-side {
+    width: 15%;
+    border:none;
+    display: inline-flex;
+}
+.left-side button{
+    margin-left:5px;
+    
+}
+#eight-b-pic{
+    width:140px;
 }
 
 .middle-contact {
