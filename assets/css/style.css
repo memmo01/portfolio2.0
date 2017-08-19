@@ -43,16 +43,16 @@ body {
     border-bottom: 3px groove #F78500;
 }
 
-#k-title:hover {
+/*#k-title:hover {
     font-size: 60px;
-}
+}*/
 
 .links {
     margin: 10px 0 0 17%;
     font-family: 'Amatica SC', cursive;
     font-size: 40px;
     font-weight: 800;
-    visibility: hidden;
+    visibility: visible;
     margin-bottom: 10px;
 }
 
@@ -92,6 +92,11 @@ body {
 #contact:active {
     font-size: 50px;
     background-color: #7DCE94;
+}
+#resume:hover {
+    font-size: 50px;
+    background-color:yellow;
+
 }
 
 .logo-links {
@@ -333,7 +338,7 @@ box-shadow: 5px 5px 5px grey;
 
 /*portfolio html*/
 
-.middle-portfolio {
+.middle-portfolio{
     padding: 0 10px;
     padding-bottom: 65px;
     margin-left: 23%;
@@ -341,6 +346,8 @@ box-shadow: 5px 5px 5px grey;
     margin-top: 80px;
 
 }
+
+
 
 /*#proj-img:hover {
     height: 270px;
@@ -392,18 +399,20 @@ box-shadow: 5px 5px 5px grey;
     margin-top: 50px;
     margin-bottom:50px;
     margin-left:30%;
-    background-color: #E6E6E6;
-    box-shadow: 4px 4px 30px black;
-    padding-top:50px;
+    /*background-color: #E6E6E6;*/
+    /*box-shadow: 4px 4px 30px black;*/
+    /*padding-top:50px;*/
     /*border:2px solid black;*/
    
     
 }
 #contact-form{
    background-color: #E6E6E6;
-   /*margin-left:150px;*/
-   padding:20px 0 20px 0;
+   width: 100%;
+   margin-left:35px;
+   padding:45px 25px 20px 0;
    width:95%;
+    box-shadow: 4px 4px 30px black;
    /*border-left:1px solid black;*/
 }
 
@@ -508,14 +517,56 @@ margin-left:20px;
 }
 
 /*about html*/
-
-.middle-about {
-    padding: 0 10px;
+.middle-about{
+    /*padding: 0 10px;*/
     padding-bottom: 65px;
-    width: 85%;
-    display: inline-flex;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-left: 23%;
+    width: 55%;
+    margin-top: 80px;
+    display: inline-block;
+
+}
+.skills-icon img{
+margin:10px 0 0 0;
+}
+#pro-pic{
+    box-shadow: 4px 4px 15px black;
+    margin:0 35px 25px 0;
+    float:left;
+
+}
+.about-info{
+    margin-top: 20px;
+    padding: 30px;
+    font-size:20px;
+    color: black;   
+    position: static;
+    box-shadow: 4px 4px 30px black;
+    background-color: #d7d7d8;
+}
+.about-info-resume{
+    margin-top: 20px;
+    padding: 30px;
+    font-size:20px;
+    color: black;   
+    position: static;
+    box-shadow: 4px 4px 30px black;
+    background-color: #d7d7d8;
+    
+}
+.footer-about{
+   
+     /*bottom:0;*/
+    width: 100%;
+    height: 61px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    background-color: black;
+    border-top: 2px solid black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
 }
 
 .chalk-board-about {
@@ -597,14 +648,13 @@ margin-left:20px;
 .middle-contact {
     /*padding: 0 10px;*/
     /*padding-bottom: 65px;*/
-    height:480px;
+    height:580px;
     width:70%;
     display: inline-block;
     margin-top: 50px;
     margin-bottom:50px;
     margin-left:15%;
-    background-color: #E6E6E6;
-    box-shadow: 4px 4px 30px black;
+
     /*border:3px solid black;*/
    
     
@@ -679,39 +729,14 @@ input[type=submit]:hover {
     border: 2px solid orange;
 }
 
-.chalk-board-contact {
-    width: 100%;
-    height: 90%;
-    background-color: black;
-    /*border:2px solid black;*/
-   
-    font-size: 25px;
-    font-family: 'Amatica SC', cursive;
-    color: white;
-    
-  
-}
-.chalk-board-contact li{
-margin-left:20px;
-font-size:30px;
-visibility: none;
 
-}
-
-
-#chalk-title {
-    font-size: 55px;
-    margin-left: 22%;
-    border-bottom:2px solid white;
-    font-weight: bold;
-}
 #connect{
     border-bottom:2px solid black;
     font-size:30px;
     font-weight: bold;
 }
 .footer-contact {
-    /*bottom:0;*/
+    bottom:0;
     width: 100%;
     height: 80px;
     padding-bottom: 5px;
@@ -750,6 +775,20 @@ visibility: none;
 #email1{
     height:60px;
     width:60px;
+}
+.footer-about{
+   
+     bottom:0;
+    width: 100%;
+    height: 61px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    background-color: black;
+    border-top: 2px solid black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
 }
 
 }
