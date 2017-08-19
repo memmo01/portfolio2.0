@@ -544,6 +544,28 @@ margin:10px 0 0 0;
     box-shadow: 4px 4px 30px black;
     background-color: #d7d7d8;
 }
+.left-pic{
+width:300px;
+border-right:5px solid gray;
+margin-right:10px;
+height:100%px;
+}
+.info{
+    margin-right:10px;
+    margin-top:50px;
+    text-align: center;
+}
+#print-res{
+   margin:30px 0 0 50px;
+   color:black;
+}
+.skills-sect{
+    text-align: center;
+    border-top: 5px solid gray;
+}
+.top-about-info{
+    display: inline-flex;
+}
 .about-info-resume{
     margin-top: 20px;
     padding: 30px;
@@ -552,7 +574,7 @@ margin:10px 0 0 0;
     position: static;
     box-shadow: 4px 4px 30px black;
     background-color: #d7d7d8;
-    
+
 }
 .footer-about{
    
