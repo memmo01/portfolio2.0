@@ -46,6 +46,6 @@ var config = {
 
     
 
-      $(".display-messages").append("<tr><td>" + name + "<br>" + email + "<br>" + comments + "<br><br></tr></td>");
+      $(".display-messages").append("<tr><td><br>" + name + "<br>" + email + "<br>" + comments + "<br><br></tr></td>");
   });
 

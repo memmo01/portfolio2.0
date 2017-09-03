@@ -546,7 +546,8 @@ margin-left:20px;
 
 }
 .skills-icon img{
-margin:10px 0 0 0;
+margin:20px 0 0 0;
+
 }
 #pro-pic{
     box-shadow: 4px 4px 15px black;
@@ -580,8 +581,13 @@ height:100%px;
 }
 .skills-sect{
     text-align: center;
-    border-top: 5px solid gray;
+    margin-top:30px;
+    padding-top: 10px;
+      border-top: 15px solid gray;  
 }
+    .workExperience{
+        border-top:5px solid gray;
+    }
 .top-about-info{
     display: inline-flex;
 }
