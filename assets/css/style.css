@@ -43,6 +43,21 @@ body {
     border-bottom: 3px groove #F78500;
 }
 
+ .message-area{
+            background-color:lightgray;
+            width:70%;
+            margin-left:15%;
+            padding-top:2%;
+            
+        }
+        .display-messages{
+            font-size: 20px;
+         
+            width:50%;
+             margin:2% 0 0 25%; 
+
+        }
+
 /*#k-title:hover {
     font-size: 60px;
 }*/
@@ -770,20 +785,6 @@ input[type=submit]:hover {
     line-height: 50px;
     position: absolute;
 }
-   .message-area{
-            background-color:lightgray;
-            width:70%;
-            margin-left:15%;
-            padding-top:2%;
-            
-        }
-        .display-messages{
-            font-size: 20px;
-         
-            width:50%;
-             margin:2% 0 0 25%; 
-
-        }
 .chalk-board-contact h2{
     margin-left:15%;
     font-size: 45px;
