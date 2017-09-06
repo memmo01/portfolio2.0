@@ -19,13 +19,15 @@ var config = {
         var name= $("#name").val().trim();
         var email = $("#email").val().trim();
         var comments = $("#message").val().trim();
+        var date=Date();
 
 
 
         var newPost= {    
             comments: comments,
             email: email,
-            name: name
+            name: name,
+            date:date
         };
 
         database.ref().push(newPost);
@@ -41,11 +43,12 @@ var config = {
       var name = childSnapShot.val().name;
       var email = childSnapShot.val().email;
       var comments = childSnapShot.val().comments;
+      var date = childSnapShot.val().date;
 
 
 
     
 
-      $(".display-messages").append("<tr><td><br>" + name + "<br>" + email + "<br>" + comments + "<br><br></tr></td>");
+      $(".display-messages").append("<tr><td><br>" + name + "<br>" + email + "<br>" + comments + "<br>" + date + "<br><br></tr></td>");
   });
 

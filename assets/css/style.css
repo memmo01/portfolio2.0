@@ -46,6 +46,7 @@ body {
  .message-area{
             background-color:lightgray;
             width:70%;
+            height:100vh;
             margin-left:15%;
             padding-top:2%;
             
@@ -53,7 +54,7 @@ body {
         
 .display-messages{
             font-size: 20px;
-         
+            padding-bottom:20px;
             width:50%;
              margin:2% 0 0 25%; 
 
@@ -410,19 +411,13 @@ box-shadow: 5px 5px 5px grey;
 
 /*contact html*/
 
-.middle-contact {
-  
+.middle-contact {  
     height:580px;
     width:40%;
     display: inline-flex;
     margin-top: 50px;
     margin-bottom:50px;
-    margin-left:30%;
-    /*background-color: #E6E6E6;*/
-    /*box-shadow: 4px 4px 30px black;*/
-    /*padding-top:50px;*/
-    /*border:2px solid black;*/
-   
+    margin-left:30%; 
     
 }
 #contact-form{
@@ -432,7 +427,7 @@ box-shadow: 5px 5px 5px grey;
    padding:45px 25px 20px 0;
    width:95%;
     box-shadow: 4px 4px 30px black;
-   /*border-left:1px solid black;*/
+
 }
 
 #contact-form ul {
@@ -443,15 +438,14 @@ box-shadow: 5px 5px 5px grey;
 #contact-form li {
     margin-bottom: 10px;
     list-style-type: none;
-    /*margin-left: 12%;*/
+
 }
 
 label {
     font-size: 20px;
     font-family: 'Fira Sans', sans-serif;
     color: black;
-   
-    /*border-bottom:2px solid black;*/
+ 
 }
 
 input[type=text],
@@ -693,18 +687,13 @@ height:100%px;
 }
 
 .middle-contact {
-    /*padding: 0 10px;*/
-    /*padding-bottom: 65px;*/
+
     height:580px;
     width:70%;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 10%;
     margin-bottom:50px;
-    margin-left:15%;
-
-    /*border:3px solid black;*/
-   
-    
+    margin-left:10%; 
 }
 #contact-form{
    background-color: #E6E6E6;
@@ -714,9 +703,7 @@ box-shadow: 4px 4px 30px black;
 }
 
 #contact-form ul {
-    margin-bottom: 20px;
-
-  
+    margin-bottom: 20px;  
 }
 
 #contact-form li {
@@ -726,11 +713,9 @@ box-shadow: 4px 4px 30px black;
 }
 
 label {
-    font-size: 50px;
-    font-family: 'Amatica SC', cursive;
+   font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
     color: black;
-   
-    border-bottom:2px solid black;
 }
 
 input[type=text],
@@ -750,7 +735,7 @@ textarea {
 }
 
 textarea {
-    height: 200px;
+    height: 300px;
     color: black;
 }
 
@@ -795,18 +780,11 @@ input[type=submit]:hover {
     line-height: 50px;
     position: absolute;
 }
-.chalk-board-contact h2{
-    margin-left:15%;
-    font-size: 45px;
-}
 .logo-links-portfolio {
     margin-left: 88%;
     
 }
-#chalk-bottom-text{
-    margin-left:27%;
-    line-height:20px;
-}
+
 #linked{
     height:60px;
     width:60px;
@@ -824,18 +802,13 @@ input[type=submit]:hover {
     width:60px;
 }
 .footer-about{
-   
-     bottom:0;
-    width: 100%;
-    height: 61px;
-    padding-bottom: 5px;
-    margin-top: 5%;
-    background-color: black;
-    border-top: 2px solid black;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    position: absolute;
+    margin-top: 2%;
+    
 }
+.middle-about{
+    margin-left: 10%;
+    width: 75%;
+}
+
 
 }
