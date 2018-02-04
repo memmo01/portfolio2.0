@@ -380,6 +380,7 @@ box-shadow: 5px 5px 5px grey;
     color: black;
     display: inline-flex;
     position: static;
+    width:100%;
     /*border:1px solid black;*/
     box-shadow: 4px 4px 30px black;
     background-color: #d7d7d8;
@@ -627,7 +628,7 @@ height:100%px;
     font-weight: 650;
 }
 
-@media screen and (max-width: 1240px) and (min-width: 320px) {
+@media screen and (max-width: 1240px) and (min-width: 120px) {
     .project1 {
         margin-top: 20px;
         width:100%;
@@ -811,4 +812,66 @@ input[type=submit]:hover {
 }
 
 
+}
+
+@media screen and (max-width: 1485px) and (min-width: 1240px) {
+.project1 {
+        margin-top: 20px;
+        width:100%;
+        /*padding: 30px;*/
+        color: green;
+        display: inline-block;
+         position: static; 
+        /*margin-right: 50px;*/
+       
+    }
+
+
+ .middle-portfolio {
+    padding: 0 10px;
+    padding-bottom: 65px;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 80px;
+
+}
+.screen-button{
+    margin-top:15px;
+    display: inline-flex;
+    margin-left:0;
+}
+.button {
+    background-color: #666;
+    border-style:groove;       
+    border-color:black;
+    color: white;
+
+    text-align: center;
+    /*text-decoration: none;*/
+    
+    font-size: 16px;
+    width:110px;
+    cursor: pointer;
+    margin:1px 1px 1px 1px;
+
+}
+    #p-title {
+    margin-left: 28%;
+}
+
+#screenshot{
+    width:420px;
+}
+.left-side {
+    width: 15%;
+    border:none;
+    display: inline-flex;
+}
+.left-side button{
+    margin-left:5px;
+    
+}
+#eight-b-pic{
+    width:140px;
+}
 }
